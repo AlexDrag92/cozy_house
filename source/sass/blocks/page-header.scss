@@ -1,0 +1,14 @@
+.page-header{
+  @include clearfix();
+  position: absolute;
+  width: 100%;
+  margin-top: 57px;
+}
+
+.company-info{
+  float: left;
+}
+
+.navigation{
+  float: right;
+}

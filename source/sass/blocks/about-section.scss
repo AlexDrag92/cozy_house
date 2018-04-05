@@ -1,0 +1,14 @@
+.about-section{
+  padding-top: 1px;
+}
+
+.about-section__title{
+  margin-top: 70px;
+  margin-bottom: 40px;
+ }
+
+.about-section_paragraph{
+  &:last-child{
+    margin-bottom: 0;
+  }
+}
