@@ -1,11 +1,41 @@
 .promo-section{
   padding-top: 1px;
+  padding-bottom: 250px;
+  background:
+  	url('../img/dog-bg.png')
+  	no-repeat
+  	right bottom,
+  	#000000
+  	url('../img/promo-bg.jpg')
+    no-repeat;
+
+    background-size: auto, cover;
+}
+
+
+.promo-section__contain-wrapper{
+  @include container();
 }
 
 .promo-section__slogan{
   margin-top: 400px;
+  font-weight: normal;
+  font-size: 44px;
+  line-height: 57px;
+  color: $color1;
+}
+
+.promo-section__description{
+	display: block;
+	width: 450px;
+  font-style: normal;
+  font-family: Arial, serif;
+  font-size: 15px;
+  line-height: 24px;
+  color: $color3;
 }
 
 .promo-section .button{
-  margin-bottom: 270px;
+	margin-top: 40px;
+  
 }

@@ -1,9 +1,11 @@
 var gulp = require('gulp');
 var bs = require('browser-sync').create();
 var sass = require('gulp-sass');
+var plumber = require('gulp-plumber');
 
 gulp.task('sass', function(){
   return gulp.src('source/sass/style.scss')
+         .pipe(plumber())
          .pipe(sass({
             style : 'compressed'
           }))

@@ -1,0 +1,23 @@
+.company-info{
+	float: left;
+}
+
+.company-info__name{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 32px;
+	font-weight: normal;
+	line-height: 48px;
+	color: $color1;
+}
+
+.company-info__activity{
+	display: block;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	line-height: 15px;
+	font-style: normal;
+	word-spacing: 1px;
+	color: #ffffff;
+}

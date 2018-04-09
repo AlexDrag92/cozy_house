@@ -1,0 +1,22 @@
+.help-section{
+	padding-top: 1px;
+}
+
+.help-section__title{
+	margin-top: 75px;
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+.help-list{
+	max-width: 1030px;
+	background: pink;
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+}
+
+.help-list__item{
+	display: inline-block;
+	margin-bottom: 80px;
+}

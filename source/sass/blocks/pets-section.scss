@@ -1,7 +1,15 @@
 .pets-section{
   padding-top: 1px;
+  padding-bottom: 40px;
+  background: $color6;
 }
 
 .pets-section__title{
   margin-top: 85px;
+  margin-bottom: 40px;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+  color: $color4;
+  text-align: center;
 }

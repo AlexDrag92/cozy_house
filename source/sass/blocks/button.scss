@@ -1,3 +1,30 @@
 .button{
   display: inline-block;
+	padding: 15px 40px;
+	color: $color2;
+	background: $color1;
+	font-size: 17px;
+	text-decoration: none;
+	border-radius: 50px;
+	transition: .3s background;
+	
+	&:hover{
+		background: darken($color1, 20%);
+	}
+
+  &--center{
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
+  }
+
+ 	&--white{
+ 		padding: 13px 38px;
+ 		background: $color7;
+ 		border: 2px solid $color1;
+
+ 		&:hover{
+			background: $color1;
+		}
+ 	}
 }

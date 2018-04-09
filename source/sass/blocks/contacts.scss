@@ -1,0 +1,23 @@
+.contacts{
+	@include clearfix();
+	margin-top: 80px;
+}
+
+.contacts__telephone-and-email{
+	float: left;
+	width: 300px;
+	margin-right: 175px;
+}
+
+.contacts__addresses{
+	float: left;
+	width: 300px;
+}
+
+.contacts__clarification{
+	margin-bottom: 50px;
+}
+
+.contacts__item{
+	display: block;
+}
