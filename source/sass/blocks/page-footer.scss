@@ -6,10 +6,12 @@
     url('../img/dog_3.png')
     no-repeat
     85% bottom,
-
+    #000000
     url('../img/promo-bg.jpg')
     no-repeat
-    left top
+    left top;
+
+    background-size: auto, cover;
 }
 
 .page-footer__contain-wrapper{

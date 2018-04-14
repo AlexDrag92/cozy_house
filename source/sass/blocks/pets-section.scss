@@ -4,6 +4,11 @@
   background: $color6;
 }
 
+.pets-section__contain-wrapper{
+  @include container();
+  position: relative;
+}
+
 .pets-section__title{
   margin-top: 85px;
   margin-bottom: 40px;

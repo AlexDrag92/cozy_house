@@ -422,8 +422,6 @@ body {
   color: #ffffff; }
 
 .navigation {
-  max-width: 1170px;
-  margin: 0 auto;
   float: right;
   padding: 0;
   padding-top: 1px; }
@@ -485,6 +483,7 @@ body {
 
 .promo-section__description {
   display: block;
+  width: 38.46153846153846%;
   max-width: 450px;
   font-style: normal;
   font-family: Arial, serif;
@@ -502,21 +501,22 @@ body {
 .about-section__contain-wrapper {
   max-width: 1170px;
   margin: 0 auto;
-  background: #FFFFFF url("../img/pets.png") no-repeat left center;
+  background: url("../img/pets.png") no-repeat left center;
   background-size: contain; }
 
 .about-section__title {
   margin-top: 70px;
   margin-bottom: 40px;
-  margin-left: 585px;
+  margin-left: 50%;
   font-weight: normal;
   font-size: 35px;
   line-height: 45px;
   color: #545454; }
 
 .about-section_paragraph {
-  max-width: 415px;
-  margin-left: 585px;
+  width: 585px;
+  max-width: 35.47008547008547%;
+  margin-left: 50%;
   font-family: Arial, serif;
   font-size: 15px;
   line-height: 24px;
@@ -529,6 +529,11 @@ body {
   padding-bottom: 60px;
   background: #F6F6F6; }
 
+.pets-section__contain-wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative; }
+
 .pets-section__title {
   margin-top: 85px;
   margin-bottom: 40px;
@@ -539,7 +544,6 @@ body {
   text-align: center; }
 
 .pets-carousel {
-  position: relative;
   max-width: 920px;
   margin: 0 auto;
   margin-bottom: 70px; }
@@ -562,10 +566,10 @@ body {
   outline: none;
   background-image: url("../img/icons/icons_sprite.png"); }
   .pets-carousel .arrow-left {
-    left: -110px;
+    left: 0;
     background-position: 15px -1918px; }
   .pets-carousel .arrow-right {
-    right: -110px;
+    right: 0;
     background-position: 15px -2025px; }
 
 .animal-card {
@@ -659,11 +663,11 @@ body {
 .donation-section__contain-wrapper {
   max-width: 1170px;
   margin: 0 auto;
-  background: url("../../img/dog_2.png") no-repeat left center; }
+  background: url("../img/dog_2.png") no-repeat left center; }
 
 .donation-section__title {
   margin-top: 75px;
-  margin-left: 585px;
+  margin-left: 50%;
   margin-bottom: 20px;
   font-weight: normal;
   font-size: 35px;
@@ -671,29 +675,30 @@ body {
   color: #545454; }
 
 .donation-section__bank-info {
-  margin-left: 585px; }
+  margin-left: 50%; }
 
 .donation-section__name-bank-account {
   display: block;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   color: #292929;
   font-weight: normal;
   font-size: 15px; }
 
 .donation-section__count-number {
   display: inline-block;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   padding: 10px;
   padding-left: 55px;
-  background: #F1CDB3 url("../../img/icons/icons_sprite.png") no-repeat 10px -1807px;
+  background: #F1CDB3 url("../img/icons/icons_sprite.png") no-repeat 10px -1807px;
   border-radius: 10px;
   font-weight: normal;
-  font-size: 20px; }
+  font-size: 19px; }
 
 .donation-section__legal-information {
-  width: 355px;
+  max-width: 355px;
+  width: 30.34188034188034%;
   margin-top: 0;
-  margin-left: 585px;
+  margin-left: 50%;
   margin-bottom: 0;
   font-style: italic;
   font-family: Arial, sans-serif;
@@ -704,7 +709,8 @@ body {
 .page-footer {
   padding-top: 1px;
   padding-bottom: 80px;
-  background: url("../img/dog_3.png") no-repeat 85% bottom, url("../img/promo-bg.jpg") no-repeat left top; }
+  background: url("../img/dog_3.png") no-repeat 85% bottom, #000000 url("../img/promo-bg.jpg") no-repeat left top;
+  background-size: auto, cover; }
 
 .page-footer__contain-wrapper {
   max-width: 1170px;
@@ -719,7 +725,8 @@ body {
 
 .contacts__telephone-and-email {
   float: left;
-  width: 300px;
+  width: 25.64102564102564%;
+  max-width: 300px;
   margin-right: 175px; }
 
 .contacts__addresses {

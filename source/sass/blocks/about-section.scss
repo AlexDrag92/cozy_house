@@ -6,7 +6,6 @@
 .about-section__contain-wrapper{
   @include container();
     background:
-    #FFFFFF
     url('../img/pets.png')
     no-repeat
     left center;
@@ -16,7 +15,7 @@
 .about-section__title{
   margin-top: 70px;
   margin-bottom: 40px;
-  margin-left: 585px;
+  margin-left: 50%;
   font-weight: normal;
   font-size: 35px;
   line-height: 45px;
@@ -24,8 +23,9 @@
  }
 
 .about-section_paragraph{
-	max-width: 415px;
-	margin-left: 585px;
+  width: 585px;
+	max-width: 35.47008547008547%;
+	margin-left: 50%;
   font-family: Arial, serif;
   font-size: 15px;
   line-height: 24px;

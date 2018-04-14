@@ -1,5 +1,4 @@
 .pets-carousel{
-  position: relative;
   max-width: 920px;
   margin: 0 auto;
   margin-bottom: 70px;
@@ -25,12 +24,12 @@
   background-image: url('../img/icons/icons_sprite.png');
 
   &-left{
-    left: -110px;
+    left: 0;
     background-position: 15px -1918px;
   }
 
   &-right{
-    right: -110px;
+    right: 0;
     background-position: 15px -2025px;
   }
   

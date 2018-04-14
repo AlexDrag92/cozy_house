@@ -5,7 +5,8 @@
 
 .contacts__telephone-and-email{
 	float: left;
-	width: 300px;
+	width: 25.64102564102564%;
+  max-width: 300px;
 	margin-right: 175px;
 }
 
@@ -38,13 +39,12 @@
   
   &--email{
     background-position: 0 -1405px;
-  }//1686
+  }
 
   &--phone{
     background-position: 0 -1673px;
   }
 
-  //1545
   &--map-point{
     background-position: 0 -1535px;
   }
