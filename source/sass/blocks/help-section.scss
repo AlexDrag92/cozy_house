@@ -1,22 +1,15 @@
 .help-section{
 	padding-top: 1px;
+	background: $color7;
 }
 
 .help-section__title{
 	margin-top: 75px;
 	margin-bottom: 80px;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 45px;
 	text-align: center;
+	color: $color4; 
 }
 
-.help-list{
-	max-width: 1030px;
-	background: pink;
-	margin: 0 auto;
-	padding: 0;
-	list-style-type: none;
-}
-
-.help-list__item{
-	display: inline-block;
-	margin-bottom: 80px;
-}

@@ -1,11 +1,16 @@
 .about-section{
   padding-top: 1px;
   padding-bottom: 1px;
-  background:
+}
+
+.about-section__contain-wrapper{
+  @include container();
+    background:
     #FFFFFF
-    url('../../img/pets.png')
+    url('../img/pets.png')
     no-repeat
-    10% center;
+    left center;
+    background-size: contain;
 }
 
 .about-section__title{
@@ -19,7 +24,7 @@
  }
 
 .about-section_paragraph{
-	width: 415px;
+	max-width: 415px;
 	margin-left: 585px;
   font-family: Arial, serif;
   font-size: 15px;

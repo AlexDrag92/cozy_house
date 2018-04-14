@@ -1,12 +1,28 @@
 .donation-section{
 	padding-top: 1px;
 	padding-bottom: 80px;
+	background: $color6;
 }
+
+
+.donation-section__contain-wrapper{
+	@include container();
+	background:
+		url('../../img/dog_2.png')
+		no-repeat
+		left center;
+}
+
+
 
 .donation-section__title{
 	margin-top: 75px;
 	margin-left: 585px;
-	margin-bottom: 35px;
+	margin-bottom: 20px;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 45px;
+	color: $color4;
 }
 
 .donation-section__bank-info{
@@ -17,11 +33,25 @@
 .donation-section__name-bank-account{
 	display: block;
 	margin-bottom: 10px;
+	color: $color2;
+	font-weight: normal;
+	font-size: 15px;
 }
 
 .donation-section__count-number{
-	display: block;
+	display: inline-block;
 	margin-bottom: 25px;
+	padding: 10px;
+	padding-left: 55px;
+	background:
+		$color1
+		url('../../img/icons/icons_sprite.png')
+		no-repeat
+		10px -1807px;
+	border-radius: 10px;
+	font-weight: normal;
+	font-size: 20px;
+
 }
 
 .donation-section__legal-information{
@@ -29,4 +59,9 @@
 	margin-top: 0;
 	margin-left: 585px;
 	margin-bottom: 0;
+	font-style: italic;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	line-height: 18px;
+	color: $color3;
 }

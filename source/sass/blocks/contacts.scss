@@ -16,8 +16,37 @@
 
 .contacts__clarification{
 	margin-bottom: 50px;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+  color: $color7;
 }
 
 .contacts__item{
 	display: block;
+  margin-bottom: 25px;
+  padding: 15px;
+  padding-left: 55px;
+  padding-right: 0;
+  font-size: 20px;
+  line-height: 25px;
+  color:$color1;
+
+  background-image: url('../img/icons/icons_sprite.png');
+  background-repeat: no-repeat;
+
+  
+  &--email{
+    background-position: 0 -1405px;
+  }//1686
+
+  &--phone{
+    background-position: 0 -1673px;
+  }
+
+  //1545
+  &--map-point{
+    background-position: 0 -1535px;
+  }
+
 }

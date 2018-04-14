@@ -10,7 +10,14 @@
 
 .promo-section,
 .help-section,
-.pets-carousel
+.pets-carousel,
+.help-list,
+.help-list__item,
+.donation-section__contain-wrapper
 {
   background: rgba(50,50,120,.4);
+}
+
+.pets-carousel{
+  outline: 1px solid #000;
 }
