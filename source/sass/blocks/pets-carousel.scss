@@ -38,3 +38,40 @@
 
 
 
+@media #{$large-media-query}{
+  .pets-carousel{
+    max-width: 595px;
+  }
+}
+
+@media #{$large-media-query}{
+  .pets-carousel{
+    max-width: 595px;
+    .arrow{
+      &-left{
+        left: calc(2% + 10px);
+      }
+
+      &-right{
+        right: calc(2% + 10px);
+      }
+    }
+  }
+}
+
+
+@media #{$medium-media-query}{
+  .pets-carousel{
+    max-width: 270px;
+
+    .arrow{
+      &-left{
+        left: 10px;
+      }
+
+      &-right{
+        right: 10px;
+      }
+    }
+  }
+}

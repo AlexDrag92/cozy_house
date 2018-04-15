@@ -21,3 +21,18 @@
 	word-spacing: 1px;
 	color: #ffffff;
 }
+
+@media #{$medium-media-query}{
+   .company-info{
+   	float: none;
+   	text-align: center;
+   }
+
+   .company-info__name{
+    font-size: 41px;
+   }
+
+   .company-info__activity{
+    font-size:  14px;
+   }
+}

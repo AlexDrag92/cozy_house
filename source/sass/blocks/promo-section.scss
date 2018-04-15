@@ -1,6 +1,7 @@
 .promo-section{
   padding-top: 1px;
   padding-bottom: 250px;
+
   background:
   	url('../img/dog-bg.png')
   	no-repeat
@@ -9,16 +10,17 @@
   	url('../img/promo-bg.jpg')
     no-repeat;
 
-    background-size: auto, cover;
+  background-size: 750px, cover;
 }
 
 
 .promo-section__contain-wrapper{
   @include container();
+  margin-top: 400px;
 }
 
 .promo-section__slogan{
-  margin-top: 400px;
+  width: 345px;
   font-weight: normal;
   font-size: 44px;
   line-height: 57px;
@@ -40,3 +42,32 @@
 	margin-top: 40px;
   
 }
+
+@media #{$large-media-query}{
+  .promo-section{
+    padding-bottom: 100px;
+    background-position: /*calc(100% + 250px)*/ right bottom, left top;
+    background-size: 40%, 100% 100%;
+  }
+
+  .promo-section__contain-wrapper{
+    margin-top: 330px;
+  }
+
+  .promo-section__description{
+    width: 60%;
+  }
+}
+
+@media #{$large-media-query}{
+  .promo-section__slogan{
+    width: auto;
+  }
+
+  .promo-section__description{
+    width: 100%;
+  }
+
+}
+
+

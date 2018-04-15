@@ -8,9 +8,9 @@
 .donation-section__contain-wrapper{
 	@include container();
 	background:
-		url('../img/dog_2.png')
-		no-repeat
-		left center;
+	url('../img/dog_2.png')
+	no-repeat
+	left center;
 }
 
 
@@ -44,10 +44,10 @@
 	padding: 10px;
 	padding-left: 55px;
 	background:
-		$color1
-		url('../img/icons/icons_sprite.png')
-		no-repeat
-		10px -1807px;
+	$color1
+	url('../img/icons/icons_sprite.png')
+	no-repeat
+	10px -1807px;
 	border-radius: 10px;
 	font-weight: normal;
 	font-size: 19px;
@@ -65,4 +65,54 @@
 	font-size: 12px;
 	line-height: 18px;
 	color: $color3;
+}
+
+
+@media #{$large-media-query}{
+	.donation-section__contain-wrapper{
+		padding-bottom: 20px;
+		background-size: 250px;
+		background-position: 15% center; 
+	}
+}
+
+@media #{$medium-media-query}{
+	.donation-section{
+		padding-bottom: 0;
+	}
+
+	.donation-section__contain-wrapper{
+		padding-bottom: 150px;
+		background-position: center bottom;
+
+	}
+
+	.donation-section__title{
+		width: 100%;
+		margin-left: 0;
+		text-align: center;
+	}
+	.donation-section__bank-info{
+		margin-left: 0;
+	}
+
+	.donation-section__name-bank-account{
+		text-align: center;
+	}
+	
+	.donation-section__count-number{
+		display: block;
+		width: 100%;
+		max-width: 240px;
+		margin-right: auto;
+		margin-left: auto;
+		padding-right: 0;
+	}
+
+	.donation-section__legal-information{
+		margin-left: auto;
+		margin-right: auto;
+		width: 300px;
+		max-width: 100%;
+	}
 }

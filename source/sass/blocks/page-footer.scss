@@ -2,18 +2,32 @@
 	padding-top: 1px;
   padding-bottom: 80px;
   background:
-    
-    url('../img/dog_3.png')
-    no-repeat
-    85% bottom,
-    #000000
-    url('../img/promo-bg.jpg')
-    no-repeat
-    left top;
 
-    background-size: auto, cover;
+  url('../img/dog_3.png')
+  no-repeat
+  95% bottom,
+  #000000
+  url('../img/promo-bg.jpg')
+  no-repeat
+  left top;
+  background-size:auto, 100% 100%;
 }
 
 .page-footer__contain-wrapper{
   @include container();
+}
+
+@media #{$large-media-query}{
+  .page-footer{
+    padding-bottom: 10px;
+    background-size: 140px, auto;
+    background-position: calc(100% + 10px) bottom, left top;
+  }  
+}
+
+@media #{$medium-media-query}{
+  .page-footer{
+    padding-bottom: 170px;
+    background-position: center bottom, left top;
+  } 
 }

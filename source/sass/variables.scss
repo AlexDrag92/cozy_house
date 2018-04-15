@@ -1,3 +1,16 @@
+$large-breakpoint: 1200px;
+$large-container-width: 960px;
+$large-padding: 25px;
+
+$medium-breakpoint: 768px;
+$medium-container-width: 650px;
+$medium-padding: 20px;
+
+$large-media-query: 'only screen and (max-width: '$large-breakpoint')';
+$medium-media-query: 'only screen and (max-width: '$medium-breakpoint')';
+
+
+
 $color1: #F1CDB3;
 $color2: #292929;
 $color3: #8E8E8E;

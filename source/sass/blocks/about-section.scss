@@ -13,6 +13,7 @@
 }
 
 .about-section__title{
+  width: 300px;
   margin-top: 70px;
   margin-bottom: 40px;
   margin-left: 50%;
@@ -33,4 +34,38 @@
   &:last-child{
     margin-bottom: 135px;
   }
+}
+
+
+@media #{$large-media-query}{
+  .about-section__contain-wrapper{
+    background-size: 20%;
+    background-position: 20px bottom;
+  }
+
+  .about-section__title{
+    width: auto;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .about-section_paragraph{
+    margin-left: 40%;
+    max-width: 60%;
+  }
+}
+
+@media #{$medium-media-query}{
+  .about-section__contain-wrapper{
+    padding-bottom: 40px;
+    background-size: 100px;
+    background-position: center bottom;
+  }
+
+  .about-section_paragraph{
+    max-width: 100%;
+    width: auto;
+    margin-left: 0;
+  }
+
 }
