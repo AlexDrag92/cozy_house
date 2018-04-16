@@ -434,16 +434,18 @@ body {
     float: none;
     text-align: center; }
   .company-info__name {
-    font-size: 41px; }
+    font-size: 41px;
+    margin-bottom: 7px; }
   .company-info__activity {
     font-size: 14px; } }
 
 .navigation {
   float: right;
   padding: 0;
-  padding-top: 1px; }
+  margin-top: 1px; }
 
-.navigation__button {
+.navigation__button-close,
+.navigation__button-menu {
   display: none; }
 
 .navigation__list {
@@ -489,38 +491,58 @@ body {
     position: relative;
     float: none;
     margin-top: 40px;
-    padding-bottom: 5px;
     background: #292929;
     border-radius: 10px; }
-  .navigation__button {
+  .navigation__button-close,
+  .navigation__button-menu {
     display: block;
     position: absolute;
     right: 10px;
     top: 10px;
-    width: 25px;
-    height: 25px;
+    width: 35px;
+    height: 35px;
     background: #F1CDB3;
     border: none;
     border-radius: 5px; }
-    .navigation__button::before, .navigation__button:after {
+    .navigation__button-close::before, .navigation__button-close::after,
+    .navigation__button-menu::before,
+    .navigation__button-menu::after {
       content: '';
       position: absolute;
-      top: 1px;
+      top: 3px;
       left: 50%;
       transform: translateX(-50%) rotate(45deg);
-      height: 24px;
-      width: 4px;
+      height: 30px;
+      width: 6px;
       background: #292929;
       border-radius: 3px; }
-    .navigation__button:after {
+    .navigation__button-close:after,
+    .navigation__button-menu:after {
       transform: translateX(-50%) rotate(-45deg); }
+  .navigation__button-menu::before, .navigation__button-menu::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    transform: translateX(-50%) rotate(90deg);
+    height: 25px;
+    width: 6px;
+    background: #292929;
+    border-radius: 3px; }
+  .navigation__button-menu:after {
+    transform: translateX(-50%) rotate(-180deg); }
   .navigation__item {
     display: block;
     margin-right: 0; }
+    .navigation__item:first-child {
+      padding-top: 15px; }
+    .navigation__item:last-child {
+      padding-bottom: 15px; }
   .navigation__link {
     padding-left: 50px;
+    font-size: 18px;
     line-height: 20px; }
-    .navigation__link:before {
+    .navigation__link::before {
       content: none; } }
 
 .promo-section {
@@ -569,6 +591,9 @@ body {
     background-size: 40%, 100% 100%; }
   .promo-section__contain-wrapper {
     margin-top: 330px; }
+  .promo-section__slogan {
+    font-size: 40px;
+    text-align: center; }
   .promo-section__description {
     width: 60%; } }
 
@@ -672,11 +697,15 @@ body {
   margin-bottom: 70px; }
 
 .pets-carousel__animal-cards-wrapper {
+  position: relative;
   overflow-x: scroll; }
 
 .pets-carousel__animal-cards {
+  position: relative;
+  left: 0;
   margin: 0 auto;
-  width: 2545px; }
+  width: 2545px;
+  transition: left .5s; }
   .pets-carousel__animal-cards::after {
     content: '';
     display: table;
@@ -694,6 +723,8 @@ body {
   .pets-carousel .arrow-right {
     right: 0;
     background-position: 15px -2025px; }
+  .pets-carousel .arrow:hover {
+    background-color: #F6F6F6; }
 
 @media only screen and (max-width: 1200px) {
   .pets-carousel {
@@ -792,7 +823,7 @@ body {
   background-image: url("../img/icons/icons_sprite.png");
   background-repeat: no-repeat; }
   .help-list__item--food-icon {
-    background-position: 14px -636px; }
+    background-position: 14px -628px; }
   .help-list__item--transport-icon {
     background-position: 30px 0; }
   .help-list__item--toys-icon {
