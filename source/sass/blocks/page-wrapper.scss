@@ -1,0 +1,9 @@
+.page-wrapper{
+  overflow: hidden;
+
+   padding-top: 1px;
+  &--grey-bg{
+    background: $color6;
+    
+  }
+}

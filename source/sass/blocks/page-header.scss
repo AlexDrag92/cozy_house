@@ -1,7 +1,11 @@
 .page-header{
-	width: 100%;
-  margin-top: 57px;
-  position: absolute;
+  z-index: 2;
+  margin-top: 30px;
+  &--big-offset-top{
+    width: 100%;
+    margin-top: 57px;
+    position: absolute;
+  }
 }
 
 .page-header__contain-wrapper{

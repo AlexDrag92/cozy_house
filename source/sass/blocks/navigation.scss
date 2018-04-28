@@ -2,6 +2,7 @@
 	float: right;
 	padding: 0;
 	margin-top: 1px;
+	z-index: 2;
 }
 
 .navigation__button-close,
@@ -37,8 +38,7 @@
 	font-family: Arial, sans-serif;
 	line-height: 0px;
 	position: relative;
-
-
+	
 	&::before{
 		content: '';
 		display: block;
@@ -59,6 +59,14 @@
 			opacity: 1;
 			transition: .1s opacity;
 		}
+	}
+
+	&--dark{
+		color: $color2;
+
+		&:hover{
+			color: $color3;
+		}
 	}	
 }
 
@@ -68,8 +76,6 @@
 		position: relative;
 		float: none;
 		margin-top: 40px;
-
-
 		background: $color2;
 		border-radius: 10px;
 	}
@@ -149,5 +155,13 @@
 		&::before{
 			content: none;
 		}
+
+		&--dark{
+		color: $color1;
+
+		&:hover{
+			color: $color3;
+		}
+	}	
 	}
 }

@@ -6,9 +6,7 @@ var plumber = require('gulp-plumber');
 gulp.task('sass', function(){
   return gulp.src('source/sass/style.scss')
          .pipe(plumber())
-         .pipe(sass({
-            style : 'compressed'
-          }))
+         .pipe(sass())
          .pipe(gulp.dest('source/css'))
          .pipe(bs.stream())
 });

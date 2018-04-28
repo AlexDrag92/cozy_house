@@ -1,0 +1,99 @@
+[
+  {
+    "name"     : "Charly",
+    "breed"    : "Pooch",
+    "desc"     : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur blandit condimentum. Proin accumsan lorem vel gra vida fringilla. Suspendisse potenti. Mauris ut pulvinar nunc. Donec consectetur, diam in porta tempus, urna ligula ves tibulum nibh.",
+    "infolist" : [
+    {"Age"          : "4 years"},
+    {"Inoculations" : "none"},
+    {"Diseases"     : "none"},
+    {"Parasites"    : "none"}
+    ],
+    "imgsrc"   : "img/charly.jpg"
+  },
+  {
+    "name"     : "Katrine",
+    "breed"    : "British Shorthair",
+    "desc"     : "Phasellus tempus mollis sagittis. Suspendisse accumsan sapien ac massa condimentum, eu scelerisque augue sollicitudin. Pellentesque quis massa pulvinar, porta velit laoreet, commodo enim. Donec bibendum tempus imperdiet. Donec sit amet dui et nunc scelerisque egestas.",
+    "infolist" : [
+      {"Age"          : "1 year"},
+      {"Inoculations" : "none"},
+      {"Diseases"     : "none"},
+      {"Parasites"    : "none"}
+      ],
+    "imgsrc"   : "img/katrine.jpg"
+  },
+  {
+    "name"     : "Jennifer",
+    "breed"    : "Labrador",
+    "desc"     : " Vestibulum aliquam facilisis congue. Nunc tempor ut augue nec ultrices. Ut neque ligula, aliquam a nisi non, blandit molestie massa. Morbi porta mauris libero, non molestie augue tempus nec. In ac justo nec diam pharetra fermentum sit amet eu odio.",
+    "infolist" : [
+      {"Age"          : "6 months"},
+      {"Inoculations" : "none"},
+      {"Diseases"     : "none"},
+      {"Parasites"    : "none"}
+      ],
+    "imgsrc"   : "img/jennifer.jpg"
+  },
+  {
+    "name"     : "Scarlett",
+    "breed"    : "Jack Russell Terrier",
+    "desc"     : " Vestibulum aliquam facilisis congue. Nunc tempor ut augue nec ultrices. Ut neque ligula, aliquam a nisi non, blandit molestie massa. Morbi porta mauris libero, non molestie augue tempus nec. In ac justo nec diam pharetra fermentum sit amet eu odio.",
+    "infolist" : [
+      {"Age"          : "4 months"},
+      {"Inoculations" : "none"},
+      {"Diseases"     : "none"},
+      {"Parasites"    : "none"}
+      ],
+    "imgsrc"   : "img/scarlett.jpg"
+  },
+    {
+    "name"     : "Woody",
+    "breed"    : "Golden Retriever",
+    "desc"     : " Vestibulum aliquam facilisis congue. Nunc tempor ut augue nec ultrices. Ut neque ligula, aliquam a nisi non, blandit molestie massa. Morbi porta mauris libero, non molestie augue tempus nec. In ac justo nec diam pharetra fermentum sit amet eu odio.",
+    "infolist" : [
+      {"Age"          : "2 years"},
+      {"Inoculations" : "none"},
+      {"Diseases"     : "none"},
+      {"Parasites"    : "none"}
+      ],
+    "imgsrc"   : "img/woody.jpg"
+  },
+  {
+    "name"     : "Sophia",
+    "breed"    : "Street",
+    "desc"     : "Ut neque ligula, aliquam a nisi non, blandit molestie massa. Morbi porta mauris libero, non molestie augue tempus nec. In ac justo nec diam pharetra fermentum sit amet eu odio.",
+    "infolist" : [
+      {"Age"          : "1 month"},
+      {"Inoculations" : "none"},
+      {"Diseases"     : "none"},
+      {"Parasites"    : "none"}
+      ],
+    "imgsrc"   : "img/sophia.jpg"
+  },
+  {
+    "name"     : "Timmy",
+    "breed"    : "Grey Cat",
+    "desc"     : "In ac justo nec diam pharetra fermentum sit amet eu odio.",
+    "infolist" : [
+      {"Age"          : "1 year"},
+      {"Inoculations" : "none"},
+      {"Diseases"     : "none"},
+      {"Parasites"    : "none"}
+      ],
+    "imgsrc"   : "img/timmy.jpg"
+  },
+  {
+    "name"     : "Freddie",
+    "breed"    : "Just cat",
+    "desc"     : " Proin accumsan lorem vel gra vida fringilla. Suspendisse potenti. Mauris ut pulvinar nunc. Donec consectetur, diam in porta tempus, urna ligula ves tibulum nibh.",
+    "infolist" : [
+      {"Age"          : "1 month"},
+      {"Inoculations" : "none"},
+      {"Diseases"     : "none"},
+      {"Parasites"    : "none"}
+      ],
+    "imgsrc"   : "img/freddie.jpg"
+  }
+
+]

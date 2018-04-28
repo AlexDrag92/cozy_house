@@ -1,12 +1,29 @@
 .pets-section{
+  position: relative;
   padding-top: 1px;
   padding-bottom: 60px;
-  background: $color6;
+
+  &--drity-white-bg{
+    background: $color6;
+  }
+
+  &--big-offset-top{
+   background: $color6;
+   margin-top: 100px;
+ }
+
+ &--big-margin{
+  margin-top: 30px;
+  padding-bottom: 0;
+ }
 }
 
 .pets-section__contain-wrapper{
   @include container();
   position: relative;
+  &--zero-font{
+    font-size: 0;
+  }
 }
 
 .pets-section__title{
@@ -17,4 +34,14 @@
   line-height: 45px;
   color: $color4;
   text-align: center;
+}
+
+
+@media #{$large-media-query}{
+  .pets-section__contain-wrapper{
+    @include container();
+    &--zero-font{
+      text-align: center;
+    }
+  }
 }

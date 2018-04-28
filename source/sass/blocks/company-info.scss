@@ -5,10 +5,19 @@
 .company-info__name{
 	margin-top: 0;
 	margin-bottom: 0;
-	font-size: 32px;
-	font-weight: normal;
-	line-height: 48px;
-	color: $color1;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 48px;
+  color: #000;
+}
+
+.company-info__link{
+  color: $color1;
+  text-decoration: none;
+
+  &--dark{
+    color: $color2;
+  }
 }
 
 .company-info__activity{
@@ -20,6 +29,10 @@
 	font-style: normal;
 	word-spacing: 1px;
 	color: #ffffff;
+
+  &--dark{
+    color: $color2;
+  }
 }
 
 @media #{$medium-media-query}{

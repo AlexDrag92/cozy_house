@@ -1,14 +1,16 @@
 $large-breakpoint: 1200px;
 $large-container-width: 960px;
-$large-padding: 25px;
+$large-paddings: 10px;
 
-$medium-breakpoint: 768px;
+$medium-breakpoint: 835px;
 $medium-container-width: 650px;
-$medium-padding: 20px;
+
+$small-breakpoint: 560px;
+$small-container-width: 480px;
 
 $large-media-query: 'only screen and (max-width: '$large-breakpoint')';
 $medium-media-query: 'only screen and (max-width: '$medium-breakpoint')';
-
+$small-media-query: 'only screen and (max-width: '$small-breakpoint')';
 
 
 $color1: #F1CDB3;
@@ -16,5 +18,5 @@ $color2: #292929;
 $color3: #8E8E8E;
 $color4: #545454;
 $color5: #4C4C4C;
-$color6: #F6F6F6;
+$color6: #E7DDD6;
 $color7: #FAFAFA;

@@ -1,0 +1,219 @@
+.modal-animal{
+  display: none;
+  position: fixed;
+  padding-bottom: 10px;
+
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5px;
+  z-index: 1;
+  background-color: $color7;
+  top: 0;
+  color: $color4;
+  border: 1px solid $color1;
+  border-radius: 10px;
+
+  
+  &--visible{
+    display: block;
+    position: static;
+
+    @include clearfix();
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+
+.close-modal-button{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  border: 2px solid $color1;
+  background-color: transparent;
+  transition: background .3s;
+
+  &--hidden{
+    display: none;
+  }
+  &:hover{
+    background: $color1;
+  }
+
+  &::before,
+  &::after{
+    content: '';
+    position: absolute;
+    top:4px;
+    left: 10px;
+    transform: rotate(45deg);
+    background: $color2;
+    width: 2px;
+    height: 15px;
+  }
+
+  &::after{
+    transform: rotate(-45deg);
+  }
+}
+
+.modal-animal__image-wrapper{
+  float: left;
+  width: 35%;
+}
+
+.modal-animal__image-wrapper img{
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.modal-animal__about-wrapper{
+  float: right;
+  width: 60%;
+  padding-left: 0%;
+}
+
+.modal-animal__animal-name{
+  margin-top: 44px;
+  margin-bottom: 0;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 45px;
+}
+
+.modal-animal__breed{
+  display: block;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+}
+
+.modal-animal__animal-desc{
+  padding-right: 50px;
+  font-size: 15px;
+  line-height: 24px;
+  font-family: 'Arial', sans-serif;
+}
+
+.modal-animal__info-list{
+
+  margin: 0;
+  padding: 0;
+  line-height: 34px;
+  list-style-type: none;
+}
+
+.modal-animal__info-item{
+  padding-left: 0;
+  position: relative;
+  &::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -15px;
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: $color1;
+    border-radius: 50px; 
+  }
+}
+.modal-animal__item-category{
+  font-size: 17px;
+  position: relative;
+}
+
+.modal-animal__item-category-value{
+  font-style: normal;
+  font-size: 15px;
+  font-family: 'Arial', sans-serif;
+}
+
+
+
+
+@media #{$large-media-query}{
+  .modal-animal{
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .modal-animal__animal-name{
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-size: 21px;
+  }
+  .modal-animal__breed{
+    font-size: 15px;
+    margin-top: 4px;
+  }
+  .modal-animal__animal-desc{
+    font-size: 13px;
+    margin-top: 3px;
+  }
+  .modal-animal__info-list{
+    margin-top: 0;
+  }
+  .modal-animal__item-category{
+    font-size: 15px;
+  }
+  .modal-animal__item-category-value{
+    font-size: 14px;
+  }
+}
+
+@media #{$medium-media-query}{
+  .modal-animal__info-item{
+    margin-bottom: 0;
+    line-height: 24px;
+  }
+}
+
+@media #{$small-media-query}{
+  .modal-animal{
+    margin-top: 0px;
+  }
+
+  .modal-animal__image-wrapper{
+    float: none;
+    width: 60%;
+    margin: 5px auto 5px;
+  }
+
+  .modal-animal__about-wrapper{
+    float: none;
+    width: auto;
+    padding: 0 10px;
+  }
+  
+  .modal-animal__animal-name,
+  .modal-animal__breed{
+   text-align: center;
+   font-size: 20px;
+   line-height: 22px;
+ }
+ .modal-animal__breed{
+  font-size: 15px;
+}
+
+.modal-animal__animal-desc{
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.modal-animal__info-list{
+  padding-left: 20px;
+}
+
+.modal-animal__item-category{
+  font-size: 12px;
+}
+.modal-animal__item-category-value{
+  font-size: 11px;
+}
+
+}

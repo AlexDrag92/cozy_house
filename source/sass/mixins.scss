@@ -7,16 +7,19 @@
 }
 
 @mixin container(){
-	max-width: 1130px;
+	max-width: 1170px;
 	margin: 0 auto;
 
   @media #{$large-media-query}{
     max-width: $large-container-width;
-    padding: 0 $large-padding;
+    padding: 0 $large-paddings;
   }
 
   @media #{$medium-media-query}{
     max-width: $medium-container-width;
-    padding: 0 $medium-padding;
+  }
+
+  @media #{$small-media-query}{
+    max-width: $small-container-width;
   }
 }
